@@ -1,12 +1,9 @@
 {
   "dependencies": {
-    "com.vrchat.base": {
-      "version": "3.7.5"
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
-    "com.vrchat.worlds": {
+    "com.vrchat.base": {
       "version": "3.7.5"
     },
     "vrchat.jordo.easyquestswitch": {
@@ -17,22 +14,31 @@
     },
     "com.llealloo.audiolink": {
       "version": "2.0.0"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5"
+    },
+    "dev.architech.umbrella": {
+      "version": "0.8.4"
+    },
+    "dev.architech.videoplayershim": {
+      "version": "1.3.10"
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.23.1"
+    },
+    "dev.architech.protv.extras": {
+      "version": "0.8.3-beta"
     }
   },
   "locked": {
-    "com.vrchat.base": {
-      "version": "3.7.5",
-      "dependencies": {}
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
     },
-    "com.vrchat.worlds": {
+    "com.vrchat.base": {
       "version": "3.7.5",
-      "dependencies": {
-        "com.vrchat.base": "3.7.5"
-      }
+      "dependencies": {}
     },
     "vrchat.jordo.easyquestswitch": {
       "version": "1.4.0",
@@ -45,6 +51,44 @@
     "com.llealloo.audiolink": {
       "version": "2.0.0",
       "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5",
+      "dependencies": {
+        "com.vrchat.base": "3.7.5"
+      }
+    },
+    "dev.architech.umbrella": {
+      "version": "0.8.4",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.3",
+        "dev.architech.sdk": ">=0.18.1"
+      }
+    },
+    "dev.architech.sdk": {
+      "version": "0.18.1",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4"
+      }
+    },
+    "dev.architech.videoplayershim": {
+      "version": "1.3.10",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.3"
+      }
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.23.1",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4",
+        "dev.architech.sdk": ">=0.16.1 <1"
+      }
+    },
+    "dev.architech.protv.extras": {
+      "version": "0.8.3-beta",
+      "dependencies": {
+        "dev.architech.protv": ">=3.0.0-beta.13.2"
+      }
     }
   }
 }
